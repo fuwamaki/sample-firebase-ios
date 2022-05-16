@@ -23,3 +23,18 @@ final class APIClient {
         print(ref)
     }
 }
+
+// MARK: addSnapshotListener
+extension APIClient {
+    static func fetchFruitsListener(completion: @escaping (Result<[Fruit], Error>) -> Void) {
+        firestore.collection("fruits").addSnapshotListener { querySnapshot, error in
+            if let error = error {
+                completion(.failure(error))
+            } else if let querySnapshot = querySnapshot {
+                let fruits = querySnapshot.documents
+                    .compactMap { try! $0.data(as: Fruit.self) }
+                completion(.success(fruits))
+            }
+        }
+    }
+}
