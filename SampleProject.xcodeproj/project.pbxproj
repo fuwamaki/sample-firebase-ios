@@ -10,6 +10,7 @@
 		DDF0DF0D2832495400649969 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF0DF0C2832495400649969 /* APIClient.swift */; };
 		DDF0DF0F2832ED0000649969 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF0DF0E2832ED0000649969 /* Fruit.swift */; };
 		DDF0DF122832F13B00649969 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DDF0DF112832F13B00649969 /* FirebaseFirestoreSwift */; };
+		DDF0DF142833063000649969 /* AppendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF0DF132833063000649969 /* AppendView.swift */; };
 		DDF5161A28322D3E0064878E /* SampleProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5161928322D3E0064878E /* SampleProjectApp.swift */; };
 		DDF5161C28322D3E0064878E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5161B28322D3E0064878E /* ContentView.swift */; };
 		DDF5161E28322D3F0064878E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF5161D28322D3F0064878E /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		DDF0DF0C2832495400649969 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		DDF0DF0E2832ED0000649969 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		DDF0DF132833063000649969 /* AppendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendView.swift; sourceTree = "<group>"; };
 		DDF5161628322D3E0064878E /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF5161928322D3E0064878E /* SampleProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProjectApp.swift; sourceTree = "<group>"; };
 		DDF5161B28322D3E0064878E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				DDF5162728323A660064878E /* GoogleService-Info.plist */,
 				DDF5161928322D3E0064878E /* SampleProjectApp.swift */,
 				DDF5161B28322D3E0064878E /* ContentView.swift */,
+				DDF0DF132833063000649969 /* AppendView.swift */,
 				DDF0DF0C2832495400649969 /* APIClient.swift */,
 				DDF0DF0E2832ED0000649969 /* Fruit.swift */,
 				DDF5161D28322D3F0064878E /* Assets.xcassets */,
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDF0DF0F2832ED0000649969 /* Fruit.swift in Sources */,
+				DDF0DF142833063000649969 /* AppendView.swift in Sources */,
 				DDF5161C28322D3E0064878E /* ContentView.swift in Sources */,
 				DDF5161A28322D3E0064878E /* SampleProjectApp.swift in Sources */,
 				DDF0DF0D2832495400649969 /* APIClient.swift in Sources */,

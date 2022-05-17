@@ -18,4 +18,10 @@ struct Fruit: Codable, Identifiable {
         case name
         case starCount = "star_count"
     }
+
+    init(id: String? = nil, name: String, starCount: Int) {
+        self.id = id
+        self.name = name
+        self.starCount = starCount
+    }
 }
