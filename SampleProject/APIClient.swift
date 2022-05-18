@@ -19,8 +19,7 @@ final class APIClient {
     }
 
     static func addFruit(_ fruit: Fruit) async throws {
-        let ref = try firestore.collection("fruits").addDocument(from: fruit)
-        print(ref)
+        let _ = try firestore.collection("fruits").addDocument(from: fruit)
     }
 }
 
