@@ -2,7 +2,7 @@
 //  Fruit.swift
 //  SampleProject
 //
-//  Created by yusaku maki on 2022/05/17.
+//  Created by fuwamaki on 2022/05/17.
 //
 
 import Foundation
